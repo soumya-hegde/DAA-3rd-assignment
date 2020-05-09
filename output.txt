@@ -1,0 +1,11 @@
+﻿OUTPUT OF PROGRAM WITH  SAMPLE DATA:
+ 1. Pass the sequence of integers in command line arguments as input variables which is separated by comma. 
+    For example let us enter 
+    8,7,3,5,1
+ 2. Run the program.
+ 3. The sample output would be as,
+    sorted heap is:1 5 3 8 7
+    minimum heap sort:8 7 5 3 1  
+ 
+TOTAL NUMBER OF BASIC (KEY)OPERATION i.e COMPUTATION OF TIME COMPLEXITY:
+  It takes O(logn) for heapify and O(n) for constructing a heap.Hence,the overall time complexity of heapsort using min heap is O(nlogn).
